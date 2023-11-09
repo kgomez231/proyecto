@@ -1,0 +1,84 @@
+body {
+    background-color: #f4f4f4;
+    background-image: url("./img/batman-gotham_5120x2880_xtrafondos.com.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-content {
+    text-align: center;
+    width: 50%;
+    height: 30%;
+}
+.form-search {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-search input[type="search"] {
+    border: none;
+    padding: 10px;
+    width: 70%;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-search button {
+    background-color: #3498db00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 2s;
+}
+
+.form-search i.fa-search {
+    font-size: 20px;
+    color: #555;
+}
+
+.form-search button:hover {
+    background-color: #258cd100;
+    transform: scale(1.8);
+    transform: rotate(360deg);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px double #7c2cd2;
+}
+
+table th, table td {
+    border: 1px solid #45eb6e;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #2ad379;
+}
+
+table tr:nth-child(even) {
+    background-color: #5ab828;
+}
+
+table tr {
+    background-color: #4fc728;
+}
