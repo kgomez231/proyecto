@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+}
+
+.title {
+    width: 70%;
+    max-width: 500px; 
+    height: 8vh; 
+    text-align: center;
+    margin-bottom: 2vh; 
+}
+
+.title h1 {
+    color: #2c3e50; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+    font-size: 2.5vw; 
+}
+
+.cont-1 {
+    width: 70%;
+    max-width: 500px;
+    background-color: #ecf0f1; 
+    border-radius: 15px; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); 
+    padding: 3vw;
+    margin-top: 2vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-1 h1 {
+    color: #3498db; 
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2.2vw; 
+    text-align: center;
+    margin-top: 2vh; 
+    margin-bottom: 2vh; 
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-1 input[type="text"],
+.form-1 input[type="number"] {
+    width: 70%; 
+    max-width: 350px; 
+    height: 4vh;
+    margin-top: 2vh;
+    border: none;
+    border-bottom: 2px solid #34495e; 
+    outline: none;
+    background-color: #ecf0f1;
+    font-size: 1.2vw; 
+    font-family: 'Arial', sans-serif;
+}
+
+.cont-12 {
+    width: 70%;
+    max-width: 350px; 
+    height: 4vh;
+    margin-top: 3vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cont-12 label {
+    width: 100%;
+    text-align: start;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2vw; 
+}
+
+.cont-12 select {
+    width: 100%;
+    padding: 8px; 
+    font-size: 1.1vw; 
+    font-family: 'Arial', sans-serif;
+    color: #34495e; 
+    border: 2px solid #34495e; 
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #ecf0f1;
+    position: relative;
+    z-index: 1;
+    outline: none;
+}
+
+.boton {
+    width: 70%;
+    max-width: 350px;
+    margin-top: 2vh;
+    height: 8vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton input[type="submit"] {
+    width: 45%; 
+    max-width: 160px; 
+    height: 5.5vh; 
+    margin-top: 2vh;
+    background-color: #e74c3c; 
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 1.2vw; 
+    font-family: 'Arial', sans-serif;
+    font-weight: bolder;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.boton input[type="submit"]:hover {
+    width: 45%;
+    font-weight: bolder;
+    background-color: #c0392b; 
+    transform: scale(1.1); 
+}
+
